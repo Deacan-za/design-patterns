@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregate\INewspaper.cs" />
+    <Compile Include="Aggregate\LAPaper.cs" />
+    <Compile Include="Aggregate\NYPaper.cs" />
+    <Compile Include="Iterator\IIterator.cs" />
+    <Compile Include="Iterator\LAPaperIterator.cs" />
+    <Compile Include="Iterator\NYPaperIterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
