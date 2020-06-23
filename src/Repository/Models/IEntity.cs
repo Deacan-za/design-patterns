@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace Repository.Models
 {
-  class Program
+  public interface IEntity
   {
-    static void Main(string[] args)
-    {
-    }
   }
 }
