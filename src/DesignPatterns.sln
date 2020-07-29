@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeight", "FlyWeight\FlyWeight.csproj", "{47A6A256-AC73-412E-BEBC-FE054B52769B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{20C6220E-03F6-4732-A1E5-7ACD253FAC9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{47A6A256-AC73-412E-BEBC-FE054B52769B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A6A256-AC73-412E-BEBC-FE054B52769B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A6A256-AC73-412E-BEBC-FE054B52769B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C6220E-03F6-4732-A1E5-7ACD253FAC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C6220E-03F6-4732-A1E5-7ACD253FAC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C6220E-03F6-4732-A1E5-7ACD253FAC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C6220E-03F6-4732-A1E5-7ACD253FAC9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{DED3A09E-DF9D-4544-8170-568A32F4637F} = {13BC686D-121C-4251-A599-3A6652CBA8BD}
 		{C2E75C65-EC1A-4891-8F3B-35B373F86A56} = {13BC686D-121C-4251-A599-3A6652CBA8BD}
 		{47A6A256-AC73-412E-BEBC-FE054B52769B} = {13BC686D-121C-4251-A599-3A6652CBA8BD}
+		{20C6220E-03F6-4732-A1E5-7ACD253FAC9F} = {13BC686D-121C-4251-A599-3A6652CBA8BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BEECA9-C31A-4B81-B8D1-B24B884048B3}
