@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Decorator.Decorators;
 using Decorator.Models;
 
@@ -17,8 +13,15 @@ namespace Decorator
       theCar = new SunRoof(theCar);
       theCar = new LeatherSeats(theCar);
 
+      Car fCar = new FullSizedCar();
+      fCar = new Navigation(fCar);
+      fCar = new SunRoof(fCar);
+      fCar = new LeatherSeats(fCar);
+
       Console.WriteLine(theCar.GetDescription());
       Console.WriteLine($"{theCar.GetPrice():C2}");
+      Console.WriteLine(fCar.GetDescription());
+      Console.WriteLine($"{fCar.GetPrice():C2}");
       Console.ReadKey();
     }
   }

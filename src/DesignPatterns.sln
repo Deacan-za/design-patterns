@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1169
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{87D22A94-3D0C-45E8-9F35-B725ACEB6F17}"
 EndProject
@@ -58,6 +58,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{B68BC88E-23B5-4A45-8C9D-404987144DA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{0B4AD6B2-B5DB-4766-9A6A-247C5578DE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{8F74B361-EFCC-480A-8A12-21199B6E3AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderInheritance", "FluentBuilderInheritance\FluentBuilderInheritance.csproj", "{76231F91-CBAA-4D30-9E84-546C662D8490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderStepwise", "FluentBuilderStepwise\FluentBuilderStepwise.csproj", "{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +167,18 @@ Global
 		{0B4AD6B2-B5DB-4766-9A6A-247C5578DE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B4AD6B2-B5DB-4766-9A6A-247C5578DE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B4AD6B2-B5DB-4766-9A6A-247C5578DE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F74B361-EFCC-480A-8A12-21199B6E3AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F74B361-EFCC-480A-8A12-21199B6E3AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F74B361-EFCC-480A-8A12-21199B6E3AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F74B361-EFCC-480A-8A12-21199B6E3AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76231F91-CBAA-4D30-9E84-546C662D8490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76231F91-CBAA-4D30-9E84-546C662D8490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76231F91-CBAA-4D30-9E84-546C662D8490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76231F91-CBAA-4D30-9E84-546C662D8490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +208,9 @@ Global
 		{EAEB575B-B151-4C89-A2A0-25460AC1D9A7} = {D16628E6-0C2F-4614-B8EB-7741EC61B2D7}
 		{B68BC88E-23B5-4A45-8C9D-404987144DA2} = {D16628E6-0C2F-4614-B8EB-7741EC61B2D7}
 		{0B4AD6B2-B5DB-4766-9A6A-247C5578DE21} = {D16628E6-0C2F-4614-B8EB-7741EC61B2D7}
+		{8F74B361-EFCC-480A-8A12-21199B6E3AE3} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
+		{76231F91-CBAA-4D30-9E84-546C662D8490} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
+		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BEECA9-C31A-4B81-B8D1-B24B884048B3}
