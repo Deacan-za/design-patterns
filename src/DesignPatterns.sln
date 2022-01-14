@@ -59,11 +59,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{0B4AD6B2-B5DB-4766-9A6A-247C5578DE21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{8F74B361-EFCC-480A-8A12-21199B6E3AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "FluentBuilder\FluentBuilder.csproj", "{8F74B361-EFCC-480A-8A12-21199B6E3AE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderInheritance", "FluentBuilderInheritance\FluentBuilderInheritance.csproj", "{76231F91-CBAA-4D30-9E84-546C662D8490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderInheritance", "FluentBuilderInheritance\FluentBuilderInheritance.csproj", "{76231F91-CBAA-4D30-9E84-546C662D8490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderStepwise", "FluentBuilderStepwise\FluentBuilderStepwise.csproj", "{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderStepwise", "FluentBuilderStepwise\FluentBuilderStepwise.csproj", "{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentFunctional", "FluentFunctional\FluentFunctional.csproj", "{14755BD9-F7C0-4039-90B8-70C682727EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentFaceted", "FluentFaceted\FluentFaceted.csproj", "{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +183,14 @@ Global
 		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14755BD9-F7C0-4039-90B8-70C682727EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14755BD9-F7C0-4039-90B8-70C682727EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14755BD9-F7C0-4039-90B8-70C682727EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14755BD9-F7C0-4039-90B8-70C682727EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +223,8 @@ Global
 		{8F74B361-EFCC-480A-8A12-21199B6E3AE3} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
 		{76231F91-CBAA-4D30-9E84-546C662D8490} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
 		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
+		{14755BD9-F7C0-4039-90B8-70C682727EC8} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
+		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BEECA9-C31A-4B81-B8D1-B24B884048B3}
