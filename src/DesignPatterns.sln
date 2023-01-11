@@ -65,9 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderInheritance", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilderStepwise", "FluentBuilderStepwise\FluentBuilderStepwise.csproj", "{36A96826-13F9-436D-8A6C-B5E9E0DEFA59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentFunctional", "FluentFunctional\FluentFunctional.csproj", "{14755BD9-F7C0-4039-90B8-70C682727EC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentFunctional", "FluentFunctional\FluentFunctional.csproj", "{14755BD9-F7C0-4039-90B8-70C682727EC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentFaceted", "FluentFaceted\FluentFaceted.csproj", "{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentFaceted", "FluentFaceted\FluentFaceted.csproj", "{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecificationPattern", "Specification\SpecificationPattern.csproj", "{DA9EF84B-B0A0-438C-A283-CEFD8CF70E75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,10 @@ Global
 		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9EF84B-B0A0-438C-A283-CEFD8CF70E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9EF84B-B0A0-438C-A283-CEFD8CF70E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9EF84B-B0A0-438C-A283-CEFD8CF70E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9EF84B-B0A0-438C-A283-CEFD8CF70E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -225,6 +231,7 @@ Global
 		{36A96826-13F9-436D-8A6C-B5E9E0DEFA59} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
 		{14755BD9-F7C0-4039-90B8-70C682727EC8} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
 		{1B5C53F0-AB09-42DB-8C49-F2DFEDDAA52C} = {87D22A94-3D0C-45E8-9F35-B725ACEB6F17}
+		{DA9EF84B-B0A0-438C-A283-CEFD8CF70E75} = {D16628E6-0C2F-4614-B8EB-7741EC61B2D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BEECA9-C31A-4B81-B8D1-B24B884048B3}
